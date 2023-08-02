@@ -27,140 +27,130 @@
     
     <body id="top">
 
-        <main>
+        <!DOCTYPE html>
+<html lang="en">
 
-            <nav class="navbar navbar-expand-lg">
-                <div class="container">
-                    <a class="navbar-brand" href="index.html">
-                         <img src="images/nav.webp" width="200px">
-                    </a>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <!-- Link your Bootstrap CSS and any other CSS files here -->
+</head>
 
-                    <div class="d-lg-none ms-auto me-4">
-                        <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
+<body>
+    <main>
+        <!-- Navigation Section -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/nav.webp" width="200px" alt="Logo">
+                </a>
+                <div class="d-lg-none ms-auto me-4">
+                    <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-lg-5 me-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#">Apply Online</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">School</a>
+                            <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Ground School</a></li>
+                                <li><a class="dropdown-item" href="#">Communication School</a></li>
+                                <li><a class="dropdown-item" href="#">Flight School</a></li>
+                                <li><a class="dropdown-item" href="#">Graduate School</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5 col-lg-5 col-12">
+                        <img src="images/flight-main.png" class="img-fluid" alt="Hero Image">
                     </div>
-    
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-    
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ms-lg-5 me-lg-auto">
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#">Apply Online</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#">About Us</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#">Contact</a>
-                            </li>
-
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">School</a>
-
-                                <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="#">Ground School</a></li>
-                                    <li><a class="dropdown-item" href="#">Communication School</a></li>
-                                    <li><a class="dropdown-item" href="#">Flight School</a></li>
-                                    <li><a class="dropdown-item" href="#">Graduate School</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-
-                         
+                    <div class="col-sm-6 col-lg-6 col-12 m-auto">
+                        <h1 class="text-white text-center">It's Time To Become A Pilot</h1>
+                        <h6 class="text-center">WORLD CLASS PILOT TRAINING AT AFFORDABLE PRICE</h6>
+                        <div class="col-12 text-center mt-5">
+                            <p class="text-white">
+                                Want to know more?
+                                <a href="#" class="btn custom-btn custom-border-btn ms-3">Download Brochure</a>
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </nav>
-            
+            </div>
+        </section>
 
-            <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
-                <div class="container">
-                    <div class="row">
-                            <div class="col-lg-5 col-12">
-                                <img src="images/flight-main.png" class="img-fluid" alt="FAQs">
-                            </div>
-                            <div class="col-lg-6 col-12 m-auto">
-                                <h1 class="text-white text-center">It's Time To
-                                    Become A Pilot</h1>
-                                <h6 class="text-center">WORLD CLASS PILOT TRAINING AT AFFORDABLE PRICE</h6>
-                                <div class="col-12 text-center mt-5">
-                                    <p class="text-white">
-                                        Want to know more?
-                                        <a href="#" class="btn custom-btn custom-border-btn ms-3">Download Broucher</a>
-                                    </p> 
+        <!-- Featured Section -->
+        <section class="featured-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-12 mb-4 mb-lg-0">
+                        <div class="custom-block bg-white shadow-lg">
+                            <div class="d-flex">
+                                <div>
+                                    <h5 class="mb-2">OUR VISION</h5>
+                                    <p class="mb-0">To strengthen and progressively attain the highest standards in
+                                        aviation training. To expand the professional horizons for creating an
+                                        effective and resourceful workforce for serving the industry on the ground
+                                        and in the air.</p>
                                 </div>
                             </div>
                         </div>
-
                     </div>
-                </div>
-            </section>
-
-
-            <section class="featured-section">
-                <div class="container">
-                    <div class="row justify-content-center">
-
-                        <div class="col-lg-4 col-12 mb-4 mb-lg-0">
-                            <div class="custom-block bg-white shadow-lg">
-                                    <div class="d-flex">
-                                        <div>
-                                            <h5 class="mb-2">OUR VISION</h5>
-
-                                            <p class="mb-0">To strengthen and progressively attain the highest standards in aviation training. To expand the professional horizons for creating an effective and resourceful workforce for serving the industry on the ground and in the air.</p>
-                                        </div>
-
-                                        
+                    <div class="col-lg-6 col-12">
+                        <div class="custom-block custom-block-overlay">
+                            <div class="d-flex flex-column h-100">
+                                <img src="images/rear-view-young-college-student.jpg"
+                                    class="custom-block-image img-fluid" alt="">
+                                <div class="custom-block-overlay-text d-flex">
+                                    <div>
+                                        <h5 class="text-white mb-2">OUR MISSION</h5>
+                                        <p class="text-white">To introduce an array of industry-specific courses and
+                                            impart quality training in-house as well as with collaborative
+                                            arrangements with reputed institutions abroad. Focus on providing skilled
+                                            and knowledgeable workforce for meeting the growing industry demand.</p>
+                                        <a href="#" class="btn custom-btn mt-2 mt-lg-3">Learn More</a>
                                     </div>
-
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-12">
-                            <div class="custom-block custom-block-overlay">
-                                <div class="d-flex flex-column h-100">
-                                    <img src="images/rear-view-young-college-student.jpg" class="custom-block-image img-fluid" alt="">
-
-                                    <div class="custom-block-overlay-text d-flex">
-                                        <div>
-                                            <h5 class="text-white mb-2">OUR MISSION</h5>
-
-                                            <p class="text-white">To introduce an array of industry-specific courses and impart quality training in-house as well as with collaborative arrangements with reputed institutions abroad.  Focus on providing skilled and knowledgeable workforce for meeting the growing industry demand.</p>
-
-                                            <a href="#" class="btn custom-btn mt-2 mt-lg-3">Learn More</a>
-                                        </div>
-
-                                        
-                                    </div>
-
-                                    
-                                    <div class="section-overlay"></div>
                                 </div>
+                                <div class="section-overlay"></div>
                             </div>
                         </div>
-
                     </div>
                 </div>
-            </section>
-
-
-            <section class="explore-section section-padding" id="section_2">
-                <div class="container"> 
-
-                        <div class="col-12 text-center">
-                            <h2 class="mb-4">Browse Topics</h1>
-                        </div>
-
-                    </div>
-                </div>
-
+            </div>
+        </section>
+<br>
+  
                 <div class="container-fluid">
                     <div class="row">
+                        <div class="container">
+                            <div class="col-12 text-center">
+                                <h2 class="mb-4">Browse Topics</h2>
+                            </div>
+                        </div>
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link active" id="Ground-tab" data-bs-toggle="tab" data-bs-target="#Ground-tab-pane" type="button" role="tab" aria-controls="Ground-tab-pane" aria-selected="true">Ground School</button>
